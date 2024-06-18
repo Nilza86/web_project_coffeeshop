@@ -98,9 +98,8 @@
 }
 .header__footer {
   display: flex;
-  width: 100%;
   align-items: flex-end;
-  justify-content: space-between;
+  /* justify-content: space-between;*/
   margin: 0px;
   padding: 0px;
 }
@@ -119,23 +118,23 @@
   left: 80px;
   bottom: 40px;
 }
-.header__paragraph--address {
-  margin: 0px;
-  padding: 0px;
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
-}
 
 .header__paragraph {
+  margin-bottom: 0px;
+  margin-top: 0px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+}
+.header__paragraph--address {
   margin: 0px;
   padding: 0px;
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
 }
 .recipes {
   background-color: #0a2750;
