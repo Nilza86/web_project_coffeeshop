@@ -222,10 +222,8 @@
   line-height: 52px;
   font-weight: 500;
   color: #000000;
-  margin-top: 0px;
-  margin-left: 0;
-  margin-bottom: 80px;
-  margin-right: 0;
+  padding-bottom: 80px;
+  margin: 0;
   text-align: center;
 }
 .form {
